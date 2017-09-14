@@ -18,7 +18,7 @@ mongoose.Promise = Promise;
 if (process.env.MONGODB_URI) {
   mongoose.connect(process.env.MONGODB_URI);
 } else {
-  mongoose.connect("mongodb://localhost/nytreact");
+  mongoose.connect("mongodb://heroku_h9pjggrz:eejmdb1msjecis8j1b6eofe8qp@ds135514.mlab.com:35514/heroku_h9pjggrz");
 }
 var db = mongoose.connection;
 db.on("error", function(error) {
