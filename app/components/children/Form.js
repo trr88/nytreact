@@ -31,11 +31,11 @@ var Form = React.createClass({
           <form role="form">
             <div className="form-group">
               <label htmlFor="search">Search Term:</label>
-              <input type="text" className="form-control" id="search" />
+              <input type="text" className="form-control" id="search"/>
             </div>
             <div className="form-group">
               <label htmlFor="start-year">Start Year:</label>
-              <input type="text" className="form-control" id="start-year" />
+              <input type="text" className="form-control" id="start-year"/>
             </div>
             <div className="form-group">
               <label htmlFor="end-year">End Year:</label>
