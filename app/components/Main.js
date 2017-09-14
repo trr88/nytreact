@@ -32,7 +32,7 @@ var Main = React.createClass({
   componentDidUpdate: function() {
     console.log("Main.js componentDidUpdate");
     return "Main.js componentDidUpdate";
-   
+  },
   setTerm: function(term) {
     this.setState({ searchTerm: term });
 

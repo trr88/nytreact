@@ -11,7 +11,7 @@ var History = React.createClass({
         </div>
         <div className="panel-body text-center">
 
-          }
+          
           {this.props.history.map(function(item, i) {
             return (
               <p key={i}>{item.title} - {item.date}</p>
